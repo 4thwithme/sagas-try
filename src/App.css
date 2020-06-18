@@ -36,3 +36,87 @@
     transform: rotate(360deg);
   }
 }
+
+
+.home, .gallery {
+  display: flex;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.gallery {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ui.card>.content>.description {
+  font-size: 24px;
+  margin: auto;
+  line-height: 1.6;
+  max-width: 900px;
+  text-align: justify;
+}
+
+.rover-photo-list {
+  max-width: 900px;
+  margin: 0;
+  margin: auto;
+
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+
+.rover-photo-list > li {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.rover-photo-list > li > .ui.card {
+  width: 100%;
+}
+
+.rover__wrap {
+  min-width: 200px;
+  margin: 0 10px;
+}
+
+
+
+.gallery > .control > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery > .control > div > span {
+  margin: 0 10px;
+}
+
+.gallery > .control {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery > .control > div > input {
+  border-radius: 4px;
+  border: solid 1px #bfbfbf;
+  margin: 0 10px;
+  height: 38px;
+}
+
+.gallery button {
+  background-color: rgb(46, 93, 46);
+  border-radius: 4px;
+  border: 1px solid rgb(46, 93, 46);
+  width: 140px;
+  height: 38px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.gallery button:hover {
+  background-color: #bfbfbf;
+  border: 1px solid #bfbfbf;
+
+}
